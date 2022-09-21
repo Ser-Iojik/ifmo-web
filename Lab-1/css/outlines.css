@@ -15,10 +15,56 @@ p {
     line-height: 1.5;
 }
 
-li.none {
+ul.none li {
     list-style-type: none;
 }
 
+.head-inf {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f2;
+}
+
+.head-inf-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 5px; */
+}
+
+.head-inf-center {
+    text-align: center;
+}
+
+.head-inf-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu {
+    background-image: url(../img/fon-menu.png);
+}
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu nav a {
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+
+.menu nav a:hover {
+    background-color: #929292;
+    box-shadow: 0px 2px 9px 4px #9b939a;
+}
+
+/* Стиль для блока с картой */
 .main-map-contacts {
     position: relative;
     width: 100%;
