@@ -8,4 +8,4 @@
 
 [Lab-2](https://ser-iojik.github.io/ifmo-web/Lab-2/index.html "Открыть страницу с Лабораторной работой 2")
 
-![Иллюстрация к проекту](https://github.com/Ser-Iojik/ifmo-web/raw/main/image/maket.png)
+![Иллюстрация к проекту](https://github.com/Ser-Iojik/ifmo-web/raw/main/maket/maket.png)
