@@ -1,3 +1,5 @@
+@import "root.css";
+
 head {
     margin: 0;
     padding: 0;
@@ -43,7 +45,7 @@ ul.none li {
 }
 
 .menu {
-    background-image: url(../img/fon-menu.png);
+    background-color: var(--main_bg_color);
 }
 
 .menu nav {
