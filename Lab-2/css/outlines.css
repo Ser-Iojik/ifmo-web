@@ -9,17 +9,36 @@ body {
     margin: 0 !important;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+}
+
 p {
     margin: 0px 0px 10px 0px;
     font-size: 16px;
     font-weight: 400;
     color: #272727;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
-ul.none li {
+a {
+    margin: 0px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+li {
     list-style-type: none;
 }
+
+/* Стили для информации над меню */
 
 .head-inf {
     display: flex;
@@ -31,7 +50,16 @@ ul.none li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: 5px; */
+}
+
+.head-inf-left p {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.head-inf-left p span {
+    font-size: 20px;
+    color: var(--main_bg_color);
 }
 
 .head-inf-center {
@@ -41,8 +69,20 @@ ul.none li {
 .head-inf-right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
+
+.head-inf-right-top-menu a {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.head-inf-right-bottom-cart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Стили для главного меню */
 
 .menu {
     background-color: var(--main_bg_color);
@@ -54,25 +94,78 @@ ul.none li {
 }
 
 .menu nav a {
-    margin: 10px;
-    padding: 20px;
+    padding: 20px 70px;
+    margin: 0;
     text-decoration: none;
     font-size: 26px;
     color: #fff;
 }
 
 .menu nav a:hover {
-    background-color: #929292;
-    box-shadow: 0px 2px 9px 4px #9b939a;
+    background-color: #63A7DC;
+}
+
+/* Стили для каталога товаров */
+
+.main-catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-catalog-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 500px;
+    margin: 50px;
+    border: #272727 3px solid;
+    border-radius: 20px;
+}
+
+.main-catalog-container h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-catalog-container img {
+    height: 250px;
+}
+
+.main-catalog-container button {
+    font-size: 20px;
+    width: 60%;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: var(--main_bg_color);
+    box-shadow: 0 -3px #004478 inset;
+    transition: 0.2s;
+}
+
+.main-catalog-container button:hover {
+    background: #235D8A;
+}
+
+.main-catalog-container button:active {
+    background: #004478;
+    box-shadow: 0 3px #004478 inset;
 }
 
 /* Стиль для блока с картой */
 .main-map-contacts {
     position: relative;
+    height: 400px;
     width: 100%;
 }
 
 .map {
+    height: 400px;
     width: 100%;
 }
 
@@ -85,4 +178,46 @@ ul.none li {
     opacity: 0.9;
     height: 50%;
     background: rgb(137, 84, 129);
+}
+
+/* Стили для Футера */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #f1f1f2;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-ul a {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.footer-ul span {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-right-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-icons img {
+    margin: 0 10px;
+    width: 64px;
+    max-height: 64px;
 }
