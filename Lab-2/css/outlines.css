@@ -9,12 +9,6 @@ body {
     margin: 0 !important;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 15%;
-}
-
 p {
     margin: 0px 0px 10px 0px;
     font-size: 16px;
@@ -51,15 +45,21 @@ li {
     flex-direction: column;
     justify-content: center;
 }
-
-.head-inf-left p {
-    font-size: 20px;
-    margin-bottom: 2px;
+.contacts p {
+    font-size: 1.2em;
+    line-height: 1;
+    color: #000;
 }
 
-.head-inf-left p span {
-    font-size: 20px;
+.contacts p a {
+    font-size: 1.2em;
+    line-height: 1;
     color: var(--main_bg_color);
+}
+
+.contacts p span {
+    color: #000;
+    font-size: 1.3em;
 }
 
 .head-inf-center {
@@ -109,9 +109,22 @@ li {
 
 .main-catalog {
     display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+}
+
+.main-catalog-wrp {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.main-catalog-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 30px;
 }
 
 .main-catalog-container {
@@ -121,7 +134,7 @@ li {
     justify-content: space-evenly;
     width: 25%;
     height: 500px;
-    margin: 50px;
+    margin: 20px;
     border: #272727 3px solid;
     border-radius: 20px;
 }
@@ -157,6 +170,106 @@ li {
     box-shadow: 0 3px #004478 inset;
 }
 
+/* Стиль для блока О компании */
+
+.main-about-us {
+    background-color: #f1f1f2;
+}
+
+.main-about-us h1 {
+    text-align: center;
+}
+
+.main-about-us-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0 15%;
+}
+
+.main-about-us-container p {
+    font-size: 20px;
+}
+
+.main-about-us-container li {
+    font-size: 18px;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-about-us-container li i {
+    margin-right: 5px;
+}
+
+/* Стиль для блока популярные товары */
+
+
+.main-popular {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+}
+
+.main-popular-wrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-popular-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+
+.main-product-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 500px;
+    margin: 20px;
+    border: #272727 3px solid;
+    border-radius: 20px;
+}
+
+.main-product-container h2 {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-product-container img {
+    height: 250px;
+}
+
+.main-product-container button {
+    font-size: 20px;
+    width: 60%;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: var(--main_bg_color);
+    box-shadow: 0 -3px #004478 inset;
+    transition: 0.2s;
+}
+
+.main-product-container button:hover {
+    background: #235D8A;
+}
+
+.main-product-container button:active {
+    background: #004478;
+    box-shadow: 0 3px #004478 inset;
+}
+
 /* Стиль для блока с картой */
 .main-map-contacts {
     position: relative;
@@ -171,13 +284,18 @@ li {
 
 .blockquote-map {
     position: absolute;
-    z-index: 1000;
-    width: 40%;
+    width: 20%;
     top: 25%;
     right: 0;
     opacity: 0.9;
     height: 50%;
-    background: rgb(137, 84, 129);
+    background: #fff;
+    margin: 0 5% 0 0;
+    box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+
+.blockquote-map div {
+    padding: 20px;
 }
 
 /* Стили для Футера */
@@ -207,7 +325,7 @@ li {
 }
 
 .footer-right-logo img {
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
 
