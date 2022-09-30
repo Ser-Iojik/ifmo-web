@@ -139,10 +139,20 @@ li {
     border-radius: 20px;
 }
 
-.main-catalog-container h2 {
-    font-size: 30px;
+.main-catalog-container p {
+    font-size: 20px;
     font-weight: 200;
     margin: 5px 0;
+}
+
+.main-catalog-container p span {
+    font-size: 26px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-catalog-container div {
+    text-align: center;
 }
 
 .main-catalog-container img {
@@ -239,10 +249,20 @@ li {
     border-radius: 20px;
 }
 
-.main-product-container h2 {
-    font-size: 30px;
+.main-product-container p {
+    font-size: 20px;
     font-weight: 200;
     margin: 5px 0;
+}
+
+.main-product-container p span {
+    font-size: 26px;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-product-container div {
+    text-align: center;
 }
 
 .main-product-container img {
