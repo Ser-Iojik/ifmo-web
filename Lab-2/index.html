@@ -8,16 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body id="body">
     <header id="head">
 
         <section class="head-inf">
             <div class="head-inf-left">
-                <p>Санкт Петербург</p>
-                <p><span>8 800 123-33-33</span></p>
-                <p>С понедельника по пятницу</p>
-                <p>c <span>10:00</span> до <span>18:00</span></p>
+                <div class="contacts">
+                    <p><a href="tel:+7 (495) 123-45-67">8 800 123-33-33</a></p>
+                    <p><a href="mailto:info@site.com">info@site.com</a></p>
+                    <p>С понедельника по пятницу<br/>
+                        с 10:00 до 18:00</p>
+                    <p>Адрес: г. Санкт-Петербург</p>
+                </div>
             </div>
             <div class="head-inf-center">
                 <img alt="PROtective Сase" src="img/logo-200-158px.png">
@@ -52,52 +56,108 @@
 
         <section class="main-catalog">
 
-            <div class="main-catalog-container">
-                <h2>Силиконовые чехлы</h2>
-                <img alt="PROtective Сase" src="img/product/silicon.jpg">
-                <div><p>Куча какого-то текста описывающего</p></div>
-                <button>Купить</button>
-            </div>
-            <div class="main-catalog-container">
-                <h2>Пластиковые чехлы</h2>
-                <img alt="PROtective Сase" src="img/product/plastic.jpg">
-                <div><p>Куча какого-то текста описывающего</p></div>
-                <button>Купить</button>
-            </div>
-            <div class="main-catalog-container">
-                <h2>Со своим дизайном</h2>
-                <img alt="PROtective Сase" src="img/product/your_design.png">
-                <div><p>Куча какого-то текста описывающего</p></div>
-                <button>Перейти в редактор</button>
+            <div class="main-catalog-title">Популярные товары</div>
+
+            <div class="main-catalog-wrp">
+
+                <div class="main-catalog-container">
+                    <h2>Силиконовые чехлы</h2>
+                    <img src="img/product/silicon.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Перейти</button>
+                </div>
+
+                <div class="main-catalog-container">
+                    <h2>Пластиковые чехлы</h2>
+                    <img src="img/product/plastic.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Перейти</button>
+                </div>
+
+                <div class="main-catalog-container">
+                    <h2>Со своим дизайном</h2>
+                    <img src="img/product/your_design.png">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Создать</button>
+                </div>
+
             </div>
         </section>
 
         <section class="main-about-us">
-            <div>
-                <h1>Интернет магазин чехлов для вашего смартфона</h1>
-                <article>
-                    <p>PROtective Сase - интернет магазин в котором вы можете приобрести надёжный чехол для вашего телефона. <br/>
-                    Все чехлы поставляются от надёжных производителей и имеют гарантию 3 года использования</p>
-                    <p>Это <strong>живой</strong> интернет магазин в котором работают люди.</p>
-                </article>
+            
+            <div class="main-about-us-container">
+                <img src="img/icons/about-us-cases.png">
+                <div>
+                    <h1>Интернет магазин чехлов для вашего смартфона</h1>
+                    <article>
+                        <p>PROtective Сase - интернет магазин в котором вы можете приобрести надёжный чехол для вашего телефона <br/>
+                        Все чехлы поставляются от надёжных производителей и имеют гарантию 3 года использования</p>
+                        <p>Это <strong>живой</strong> интернет магазин в котором работают люди</p>
+                        <h3>Почему именно мы?</h3>
+                        <ul>                            
+                            <li><i class="fa fa-hand-o-right"></i>Широкий ассортимент, а также возможность самому придумать дизайн вашего чехла</li>
+                            <li><i class="fa fa-hand-o-right"></i>Система скидок</li>
+                            <li><i class="fa fa-hand-o-right"></i>Наличие склада в Санкт-Петербурге - почти все товары, перечисленные в каталоге, имеются на складе</li>
+                            <li><i class="fa fa-hand-o-right"></i>Грамотный подбор персонала и постоянное повышение его квалификации</li>
+                            <li><i class="fa fa-hand-o-right"></i>Поддержка клиентов</li>
+                        </ul>
+                            <p>Каталог товаров постоянно обновляется, что гарантирует наличие доступных для заказа позиций и актуальность цен на момент заказа</p>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section class="main-popular"></section>
+        <section class="main-popular">
 
-        <section class="main-oplata-dostavka"></section>
+            <div class="main-popular-title">Популярные товары</div>
+
+            <div class="main-popular-wrp">
+
+                <div class="main-product-container">
+                    <h2>Чёрный матовый</h2>
+                    <img src="img/product/iphone-13/iphone-13-mini-black.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Купить</button>
+                </div>
+    
+                <div class="main-product-container">
+                    <h2>What?</h2>
+                    <img src="img/product/iphone-13/iphone-13-mini-cat.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Купить</button>
+                </div>
+                
+                <div class="main-product-container">
+                    <h2>Прозрачный пластик</h2>
+                    <img src="img/product/iphone-13/iphone-13-mini-pink.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Купить</button>
+                </div>
+                
+                <div class="main-product-container">
+                    <h2>Санкт-Петербург</h2>
+                    <img src="img/product/iphone-13/iphone-13-mini-piter.jpg">
+                    <div><p>Куча какого-то текста описывающего</p></div>
+                    <button>Купить</button>
+                </div>
+
+            </div>
+
+        </section>
 
     </main>
 
     <section class="main-map-contacts">
         <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada35f1e241cb441c9e2dafa181137a06d1a571075dfe21d20a0a61c76bfcfb30&amp;source=constructor" frameborder="0"></iframe>
         <blockquote class="blockquote-map">
-            <div style="color: #fff;">Контакты</div>
-            <div><p style="color: #fff;">Санкт Петербург</p>
-                <p style="color: #fff;">8 800 123-33-33</p>
-                <p style="color: #fff;">С понедельника по пятницу<br/>
+            <div class="contacts">
+                <p><span>Контакты</span><p>
+                <p><a href="tel:+7 (495) 123-45-67">8 800 123-33-33</a></p>
+                <p><a href="mailto:info@site.com">info@site.com</a></p>
+                <p>С понедельника по пятницу<br/>
                    с 10:00 до 18:00</p>
-                <p style="color: #fff;">Адрес: г. Санкт-Петербург</p>
+                <p>Адрес: г. Санкт-Петербург</p>
             </div>
         </blockquote>
     </section>
@@ -136,7 +196,7 @@
 
             <div class="footer-right">
                 <div class="footer-right-logo">
-                    <img alt="PROtective Сase" src="img/logo.png">
+                    <img alt="PROtective Сase" src="img/logo-200-158px.png">
                 </div>
                 <div class="footer-right-icons">
                     <img src="img/icons/mastercard.png">
