@@ -288,17 +288,16 @@ li {
     justify-content: center;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 768px) {
-    .main-product-container {
-        height: 30vh;
-    }
-
-    .main-catalog-container {
-        height: 30vh;
-    }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .main-catalog {
+        margin: 50px 5%;
+    }
+    
+    .main-popular {
+        margin: 50px 5%;
+    }
+
     .main-popular-wrp {
         display: none;
     }
