@@ -290,6 +290,23 @@ li {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+    .main-product-container p {
+        font-size: 1.5em;
+    }
+    
+    .main-product-container p span {
+        font-size: 1.5em;
+    }
+
+    .main-catalog-container p {
+        font-size: 1.5em;
+    }
+    
+    .main-catalog-container p span {
+        font-size: 1.5em;
+    }
+
+
     .main-catalog {
         margin: 50px 5%;
     }
