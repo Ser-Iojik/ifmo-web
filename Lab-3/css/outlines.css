@@ -330,6 +330,10 @@ li {
         height: 50%;
         width: 100%;
     }
+
+    .main-about-us-container {
+        margin: 0 5%;
+    }
 }
 
 .main-product-container button {
