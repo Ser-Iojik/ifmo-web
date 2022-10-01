@@ -1,0 +1,424 @@
+@import "root.css";
+
+head {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 !important;
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    margin: 0px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Стили для информации над меню */
+
+.head-inf {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f2;
+}
+
+.head-inf-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts p {
+    font-size: 1em;
+    line-height: 1;
+    color: #000;
+}
+
+.contacts p a {
+    font-size: 1em;
+    line-height: 1;
+    color: var(--main_bg_color);
+}
+
+.contacts p span {
+    color: #000;
+    font-size: 1.3em;
+}
+
+.head-inf-center {
+    text-align: center;
+}
+
+.head-inf-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.head-inf-right-top-menu a {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.head-inf-right-bottom-cart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Стили для главного меню */
+
+.menu {
+    background-color: var(--main_bg_color);
+}
+
+.menu nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu nav a {
+    padding: 20px 70px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+}
+
+.menu nav a:hover {
+    background-color: #63A7DC;
+}
+
+/* Стили для каталога товаров */
+
+.main-catalog {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+}
+
+.main-catalog-wrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-catalog-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.main-catalog-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 500px;
+    margin: 20px;
+    border: #272727 3px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main-catalog-container p {
+    font-size: 1em;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-catalog-container p span {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-catalog-container div {
+    text-align: center;
+}
+
+.main-catalog-container img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.main-catalog-container button {
+    font-size: 1.2em;
+    width: 60%;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: var(--main_bg_color);
+    box-shadow: 0 -3px #004478 inset;
+    transition: 0.2s;
+}
+
+.main-catalog-container button:hover {
+    background: #235D8A;
+}
+
+.main-catalog-container button:active {
+    background: #004478;
+    box-shadow: 0 3px #004478 inset;
+}
+
+/* Стиль для блока О компании */
+
+.main-about-us {
+    background-color: #f1f1f2;
+}
+
+.main-about-us h1 {
+    text-align: center;
+}
+
+.main-about-us-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 0 15%;
+}
+
+.main-about-us-container p {
+    font-size: 1em;
+}
+
+.main-about-us-container li {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #272727;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-about-us-container li i {
+    margin-right: 5px;
+}
+
+.main-about-us-container img {
+    object-fit: cover;
+}
+
+/* Стиль для блока популярные товары */
+
+
+.main-popular {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+}
+
+.main-popular-wrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-popular-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+.main-product-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 500px;
+    margin: 20px;
+    border: #272727 3px solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.main-product-container p {
+    font-size: 1em;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-product-container p span {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 5px 0;
+}
+
+.main-product-container div {
+    text-align: center;
+}
+
+.main-product-container img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-popular-wrp-1200px {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+    .main-product-container {
+        height: 30vh;
+    }
+
+    .main-catalog-container {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-popular-wrp {
+        display: none;
+    }
+
+    .main-popular-wrp-1200px {
+        display: flex;
+    }
+
+    .main-product-container {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .main-catalog-container {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .main-product-container-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-catalog-container img {
+        height: 50%;
+        width: 100%;
+    }
+
+     .main-product-container img {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.main-product-container button {
+    font-size: 1.2em;
+    width: 60%;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+    background: var(--main_bg_color);
+    box-shadow: 0 -3px #004478 inset;
+    transition: 0.2s;
+}
+
+.main-product-container button:hover {
+    background: #235D8A;
+}
+
+.main-product-container button:active {
+    background: #004478;
+    box-shadow: 0 3px #004478 inset;
+}
+
+/* Стиль для блока с картой */
+.main-map-contacts {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+.blockquote-map {
+    position: absolute;
+    width: 20%;
+    top: 25%;
+    right: 0;
+    opacity: 0.9;
+    height: 50%;
+    background: #fff;
+    margin: 0 5% 0 0;
+    box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+
+.blockquote-map div {
+    padding: 20px;
+}
+
+/* Стили для Футера */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: #f1f1f2;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-ul a {
+    font-size: 1em;
+    margin-bottom: 2px;
+}
+
+.footer-ul span {
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-right-logo img {
+    width: 250px;
+    height: 200px;
+}
+
+.footer-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-icons img {
+    margin: 0 10px;
+    width: 64px;
+    max-height: 64px;
+}
