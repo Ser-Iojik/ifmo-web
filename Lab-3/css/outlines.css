@@ -218,7 +218,7 @@ li {
 }
 
 .main-about-us-container img {
-    max-height: 40vh;
+    max-height: 30vh;
     object-fit: cover;
 }
 
@@ -309,12 +309,12 @@ li {
 
     .main-product-container {
         width: 100%;
-        height: 55vh;
+        height: 40vh;
     }
 
     .main-catalog-container {
         width: 100%;
-        height: 55vh;
+        height: 40vh;
     }
 
     .main-product-container-2 {
