@@ -142,53 +142,85 @@ li {
 	position: relative;
 	z-index: 2;
 }
-.header__menu li {
+/* .header__menu li {
 	list-style: none;
-	margin: 0px 0px 0px 36px;
+    margin: 30px 0px 30px 20px;
 	color: #000;
-	font-size: 16px;
+	font-size: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
-}
+} */
 .content-wrapper{
     margin-top: 78px;
     padding: 10px;
     line-height: 34px;
 }
+
+.menu-burger__header-inf-center a p {
+    font-size: 40px;
+}
+
+.menu-burger__header {
+	position: relative;
+    width: 60px;
+    height: 55px;
+    display: block;
+    margin-left: 10px;
+}
+
+.active__burger {
+    color: #000;
+    font-weight: 600;
+}
+
 @media(max-width: 1100px){
+
+.menu {
+    display: none;
+}
+
+.header-inf {
+    display: none;
+}
+
 .burger-menu {
     display: flex;
 }
 .header__container {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__nav {
 	display: block;
 	position: absolute;
-    top: 55px;
+    top: 90px;
     left: 0;
     background: rgb(245, 246, 246);
     box-shadow: #ccc;
-    width: 100%;
+    width: 50%;
     box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
     transition: all 0.4s ease;
 	left:-100%;
 }
 .header__menu {
-	display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .header__nav.open-menu{
     left:0;
 }
 .header__menu li {
-	margin: 40px 0px 40px 33px;
-    font-size: 14px;
+	margin: 30px 0px 30px 20px;
 	}
+.header__menu li a {
+    font-size: 38px;
+}
 .menu-burger__header {
 	position: relative;
-    width: 40px;
-    height: 35px;
+    width: 60px;
+    height: 55px;
     display: block;
     margin-left: 10px;
    }
@@ -200,16 +232,16 @@ li {
 	margin: 0 auto;
 }
 .menu-burger__header span{
-	top: 16px;
+	top: 30px;
 }
 .menu-burger__header:after, .menu-burger__header:before{
 	content: '';
 }
 .menu-burger__header:after{
-	bottom: 5px;
+	bottom: 0;
 }
 .menu-burger__header:before{
-	top: 5px;
+	top: 10px;
 }
 .menu-burger__header.open-menu span {
 	opacity:0; 
@@ -217,12 +249,12 @@ li {
 }
 .menu-burger__header.open-menu:before {
 	transform: rotate(38deg);
-    top: 16px;
+    top: 25px;
     transition: 0.4s;
 }
 .menu-burger__header.open-menu:after {
 	transform: rotate(-38deg);
-    bottom: 16px;
+    bottom: 25px;
     transition: 0.4s;
 }
 
