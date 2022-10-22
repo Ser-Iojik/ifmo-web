@@ -18,6 +18,8 @@
 
 [Lab-5](https://ser-iojik.github.io/ifmo-web/Lab-5/index.html "Открыть страницу с Лабораторной работой 5")
 
+[Lab-7](https://ser-iojik.github.io/ifmo-web/Lab-7/index.html "Открыть страницу с Лабораторной работой 7")
+
 ### Макет сайта Protective Case ###
 > Пролистывайте до конца, макет большой *
 
